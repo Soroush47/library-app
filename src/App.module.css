@@ -1,0 +1,31 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.dark {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    padding: 10px;
+}
+
+.light {
+    background-color: #ffaddacc;
+    color: #1e1e1e;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1000px;
+    min-height: 100vh;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

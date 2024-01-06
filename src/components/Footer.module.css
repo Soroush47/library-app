@@ -1,0 +1,24 @@
+.container {
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.dark {
+    background-color: #2b2b2b;
+    color: #e0e0e0;
+}
+
+.darkName {
+    color: #dc74aecc;
+}
+
+.light {
+    background-color: #b75b8ecc;
+    color: #2b2b2b;
+}
+
+.lightName {
+    color: #660d41 ;
+}

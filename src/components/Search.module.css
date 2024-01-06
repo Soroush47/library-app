@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    /* width: max-content; */
+}
+
+.darkInput {
+    background-color: #e0e0e0;
+    color: #2b2b2b;
+}
+
+.lightInput {
+    background-color: #ffdcf7;
+    color: #2b2b2b;
+}
+
+.darkImg {
+    background-color: #dc74aecc;
+}
+
+.lightImg {
+    background-color: #732854;
+}
+
+.container img {
+    height: 38px;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container img:hover {
+    padding: 8px;
+}
+
+.container input {
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    min-width: 250px;
+}
+
+.container input:focus {
+    outline: none;
+}

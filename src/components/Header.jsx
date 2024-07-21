@@ -58,10 +58,10 @@ function Header({ theme, setTheme }) {
             <h1>Library App</h1>
             <p {...stylex.props(styles.p)}>
                 <a
-                    href="https://botostart.ir"
+                    href="https://github.com/Soroush47"
                     {...stylex.props(styles.a, styles[`${theme}Boto`])}
                 >
-                    Botostart
+                    My Github
                 </a>
                 | React.js Full Course
                 <img

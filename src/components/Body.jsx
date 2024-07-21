@@ -28,8 +28,8 @@ function Body({ booksData, theme }) {
                 <Books
                     books={books.filter(book =>
                         book.title
-                            .toLocaleLowerCase()
-                            .includes(search.toLocaleLowerCase())
+                            .toLowerCase() //toLocaleLowerCase
+                            .includes(search.toLowerCase())
                     )}
                     // setFavorites={book => setFavorites(favorites => [...favorites, book])}
                     likeHandler={likeHandler}

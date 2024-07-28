@@ -30,10 +30,10 @@ const styles = stylex.create({
         textDecoration: "none",
         fontWeight: "700",
     },
-    darkBoto: {
+    darkIcon: {
         color: "#dc74aecc",
     },
-    lightBoto: {
+    lightIcon: {
         color: "#660d41",
     },
     img: {
@@ -59,7 +59,7 @@ function Header({ theme, setTheme }) {
             <p {...stylex.props(styles.p)}>
                 <a
                     href="https://github.com/Soroush47"
-                    {...stylex.props(styles.a, styles[`${theme}Boto`])}
+                    {...stylex.props(styles.a, styles[`${theme}Icon`])}
                 >
                     My Github
                 </a>

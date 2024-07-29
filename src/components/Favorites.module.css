@@ -16,3 +16,33 @@
     background-color: #732854;
     color: #e0e0e0;
 }
+
+@media (max-width: 730px) {
+    .container {
+        width: 55%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 7px;
+        margin-top: 12px;
+        margin-left: 10px;
+    }
+}
+
+/* @media (max-width: 530px) {
+    .container {
+    }
+}
+
+@media (max-width: 515px) {
+    .container {
+        padding: 7px;
+        margin-top: 25px;
+        margin-left: 15px;
+        border-radius: 10px;
+        width: 50%;
+        height: fit-content;
+    }
+} */

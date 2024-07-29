@@ -41,3 +41,55 @@
 .heart:hover {
     transform: scale(1.2);
 }
+
+@media (max-width: 600px) {
+    .card {
+        margin-top: 12px;
+    }
+
+    .bookImg {
+        height: 70px;
+        margin-right: 15px;
+    }
+
+    .info h3 {
+        font-size: 15px;
+    }
+
+    .info p {
+        font-size: 11px;
+    }
+    .info span {
+        font-size: 0.65rem;
+    }
+
+    .heart {
+        height: 23px;
+    }
+}
+
+@media (max-width: 410px) {
+    .card{
+        padding: 10px 6px
+    }
+    .bookImg {
+        height: 60px;
+        margin-right: 12px;
+    }
+
+    .info h3 {
+        font-size: 13px;
+    }
+
+    .info p {
+        font-size: 9px;
+    }
+    .info span {
+        font-size: 0.55rem;
+        margin-right: 10px;
+    }
+
+    .heart {
+        height: 18px;
+    }
+}

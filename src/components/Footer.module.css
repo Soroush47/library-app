@@ -20,5 +20,11 @@
 }
 
 .lightName {
-    color: #660d41 ;
+    color: #660d41;
+}
+
+@media (max-width: 400px) {
+    .container {
+        padding: 12px;
+    }
 }

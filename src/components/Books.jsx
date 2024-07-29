@@ -1,8 +1,10 @@
 import Book from "./Book";
 
+import styles from "./Books.module.css";
+
 function Books({ books, likeHandler, theme }) {
     return (
-        <div style={{ width: "100%" }}>
+        <div className={styles.books}>
             {books.map(book => (
                 <Book
                     key={book.id}

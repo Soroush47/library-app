@@ -40,9 +40,15 @@
     border: none;
     border-radius: 5px;
     padding: 10px;
-    min-width: 250px;
+    width: 250px;
 }
 
 .container input:focus {
     outline: none;
+}
+
+@media (max-width: 300px){
+    .container input{
+        width: 85%;
+    }
 }
